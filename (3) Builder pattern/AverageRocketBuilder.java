@@ -23,6 +23,16 @@ public class AverageRocketBuilder implements RocketBuilder {
     }
 
     @Override
+    public void buildRocketBlueprint() {
+
+        rocket.setBlueprint("\n /\\ \n" +
+                              " ||\n" +
+                              " ||\n" +
+                              "/  \\");
+    }
+
+
+    @Override
     public Rocket getRocket(){
         return this.rocket;
     }

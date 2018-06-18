@@ -15,5 +15,7 @@ public class BuilderTest {
         System.out.println("Rocket's frame cone: " + mark1.getRocketFrame());
         System.out.println("Rocket's fin: " + mark1.getRocketFin());
 
+        System.out.println(mark1.getRocketBlueprint());
+
     }
 }

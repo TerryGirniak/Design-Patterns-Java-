@@ -17,5 +17,6 @@ public class Director {
         this.rocketBuilder.buildRocketNoseCone();
         this.rocketBuilder.buildRocketFrame();
         this.rocketBuilder.buildRocketFin();
+        this.rocketBuilder.buildRocketBlueprint();
     }
 }
