@@ -6,7 +6,7 @@ public class Fridge implements Container {
 
     @Override
     public Iterator getIterator() {
-        return null;
+        return new ArmyIterator();
     }
 
     public void addProduct(String product){
